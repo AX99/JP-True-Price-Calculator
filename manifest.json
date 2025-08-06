@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "John Pye True Price Calculator",
+    "version": "1.0",
+    "description": "Calculates true prices including VAT and buyer's premium on John Pye auction pages",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.johnpyeauctions.co.uk/Event/LotDetails/*", 
+                "https://www.johnpyeauctions.co.uk/Account/Bidding/Watching",
+                "https://www.johnpyeauctions.co.uk/Event/Details/*"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "John Pye True Price Calculator",
+        "default_icon": "images/icon.svg"
+    },
+    "icons": {
+        "128": "images/icon.svg"
+    }
+}
