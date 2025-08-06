@@ -17,7 +17,7 @@ The extension automatically detects auction prices and calculates:
 - **Buyer's Premium**: 25% on hammer price  
 - **VAT on Buyer's Premium**: 20% on the buyer's premium amount
 
-**Example**: A £100 item becomes £175.00 total (£100 + £20 VAT + £25 BP + £5 VAT on BP)
+**Example**: A £100 item becomes £150.00 total (£100 + £20 VAT + £25 BP + £5 VAT on BP)
 
 ## Installation
 
